@@ -2,7 +2,7 @@ def badge_maker(name)
  return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator (names)
+def batch_badge_creator(names)
   names.map do |name|
   badge_maker(name)
   end
@@ -14,7 +14,7 @@ def assign_rooms(speakers)
   end
 end
 
-def printer (attendees)
+def printer(attendees)
   batch_badge_creator(attendees).each do |person|
     puts person
   end
