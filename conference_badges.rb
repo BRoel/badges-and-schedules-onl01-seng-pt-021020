@@ -3,5 +3,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator (attendees)
-  array ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  new_array = []
+  name.each
   
